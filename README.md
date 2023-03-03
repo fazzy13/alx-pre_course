@@ -57,22 +57,20 @@ Note that you should use the command line to perform the exercise (except for op
 
 1 Repo-session
 
-* Create a new directory called `0x01-git` in your alx-pre_course repo
-* Include a non-empty README.md in your 0x01-git directory
+* Create a new directory called `0x01-git` in your `alx-pre_course` repo
+* Include a non-empty README.md in your `0x01-git` directory
 * Commit and push your code to GitHub
 
 2 Coding fury road
 
-* Create the following directories at the root of your project: bash, c, js
+* Create the following directories at the root of your project: `bash`, `c`, `js`
 * Create the following empty files:
-* c/c_is_fun.c
-* js/main.js
-* js/index.js
+* `c/c_is_fun.c`
+* `js/main.js`
+* `js/index.js`
 * Create a file bash/alx with the following two lines inside:
-* bash
-* Copy code
-* #!/bin/bash
-* echo "ALX"
+* ```#!/bin/bash```
+* ```echo "ALX"```
 * Create a file bash/school with the following two lines inside:
 * bash
 * Copy code
