@@ -48,61 +48,66 @@ Note that you should use the command line to perform the exercise (except for op
 ## Tasks
 0. Create and setup your Git and GitHub account
 
-** Create an account on GitHub (if you don't already have one)
-Create a Personal Access Token on GitHub
-Update your profile on the Intranet
-Create your first repository
-Clone your repository
-Create the README.md and push the modifications
-Repo-session
+* Create an account on GitHub (if you don't already have one)
+* Create a Personal Access Token on GitHub
+* Update your profile on the Intranet
+* Create your first repository
+* Clone your repository
+* Create the README.md and push the modifications
 
-Create a new directory called 0x01-git in your alx-pre_course repo
-Include a non-empty README.md in your 0x01-git directory
-Commit and push your code to GitHub
-Coding fury road
+1 Repo-session
 
-Create the following directories at the root of your project: bash, c, js
-Create the following empty files:
-c/c_is_fun.c
-js/main.js
-js/index.js
-Create a file bash/alx with the following two lines inside:
-bash
-Copy code
-#!/bin/bash
-echo "ALX"
-Create a file bash/school with the following two lines inside:
-bash
-Copy code
-#!/bin/bash
-echo "School"
-Add all these new files to Git
-Commit your changes (message: "Starting to code today, so cool") and push to the remote server
-Collaboration is the base of a company
+* Create a new directory called `0x01-git` in your alx-pre_course repo
+* Include a non-empty README.md in your 0x01-git directory
+* Commit and push your code to GitHub
 
-Create a branch named update_script
-In the file bash/alx, change "ALX" to "ALX School"
-In the file bash/school, change "School" to "The school is open"
-Add and commit these changes (message: "My personal work")
-Push the changes to the update_script branch on GitHub
-Open a pull request and merge your changes to the main branch
-Never push too much
+2 Coding fury road
 
-Create a .gitignore file in the root of the repository
-Add ~* to the .gitignore file
-Add all the files that match this pattern to Git
-Commit your changes (message: "Never push too much") and push to the remote server
-Collaboration: be up to date
+* Create the following directories at the root of your project: bash, c, js
+* Create the following empty files:
+* c/c_is_fun.c
+* js/main.js
+* js/index.js
+* Create a file bash/alx with the following two lines inside:
+* bash
+* Copy code
+* #!/bin/bash
+* echo "ALX"
+* Create a file bash/school with the following two lines inside:
+* bash
+* Copy code
+* #!/bin/bash
+* echo "School"
+* Add all these new files to Git
+* Commit your changes (message: "Starting to code today, so cool") and push to the remote server
 
-From the main branch, create a new branch named up_to_date
-In the file bash/alx, change "ALX School" to "ALX School, a new school"
-Add and commit this change (message: "How to be up to date in git")
-From the update_script branch, merge the branch up_to_date
-Resolve the conflicts (choose "ALX School, a new school")
-Commit your changes (message: "Merge branch 'up_to_date', fix conflicts") and push to the remote server
+3 Collaboration is the base of a company
+
+* Create a branch named update_script
+* In the file bash/alx, change "ALX" to "ALX School"
+* In the file bash/school, change "School" to "The school is open"
+* Add and commit these changes (message: "My personal work")
+* Push the changes to the update_script branch on GitHub
+* Open a pull request and merge your changes to the main branch
+
+4 Never push too much
+
+* Create a .gitignore file in the root of the repository
+* Add ~* to the .gitignore file
+* Add all the files that match this pattern to Git
+* Commit your changes (message: "Never push too much") and push to the remote server
+
+4 Collaboration: be up to date
+
+* From the main branch, create a new branch named up_to_date
+* In the file bash/alx, change "ALX School" to "ALX School, a new school"
+* Add and commit this change (message: "How to be up to date in git")
+* From the update_script branch, merge the branch up_to_date
+* Resolve the conflicts (choose "ALX School, a new school")
+* Commit your changes (message: "Merge branch 'up_to_date', fix conflicts") and push to the remote server
 Merge
 
-From the update_script branch, merge the main branch
+* From the update_script branch, merge the main branch
 Resolve the conflicts (choose "ALX School, a new school" and "The school is open")
 Commit your changes (message: "Merge branch 'main' into update_script") and push to the remote server
 From the main branch, delete the update_script branch
